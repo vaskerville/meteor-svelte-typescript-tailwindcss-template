@@ -1,0 +1,90 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/local_collection_driver.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/collection.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/connection_options.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/doc_fetcher.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/mongo_driver.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/mongo_utils.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/observe_multiplex.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/oplog_observe_driver.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/oplog_tailing.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/oplog_v2_converter.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/polling_observe_driver.js",
+        "/home/takasaki/.meteor/packages/mongo/1.15.0/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/takasaki/.meteor/packages/reactive-var/1.0.11/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/takasaki/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/home/takasaki/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/home/takasaki/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/home/takasaki/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/home/takasaki/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/takasaki/.meteor/packages/ecmascript/0.16.2/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/takasaki/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/home/takasaki/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/zodern:melte": [
+        "/home/takasaki/.meteor/packages/zodern_melte/1.6.1/web.browser/tracker.js",
+        "/home/takasaki/.meteor/packages/zodern_melte/1.6.1/web.browser/SvelteCompiler.js",
+        "/home/takasaki/.meteor/packages/zodern_melte/1.6.1/web.browser/hmr-runtime.js",
+        "/home/takasaki/.meteor/packages/zodern_melte/1.6.1/web.browser/plugin.js",
+        "/home/takasaki/.meteor/packages/zodern_melte/1.6.1/web.browser/proxy-adapter.js"
+      ],
+      "meteor/rdb:svelte-meteor-data": [
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/index.js",
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/autorun.js",
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/cursor.js",
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/reactive-var.js",
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/subscribe.js",
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/use-session.js",
+        "/home/takasaki/.meteor/packages/rdb_svelte-meteor-data/1.0.0/web.browser/use-tracker.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/takasaki/.meteor/packages/hot-module-replacement/0.5.1/web.browser/hot-api.js",
+        "/home/takasaki/.meteor/packages/hot-module-replacement/0.5.1/web.browser/client.js",
+        "/home/takasaki/.meteor/packages/hot-module-replacement/0.5.1/web.browser/server.js"
+      ],
+      "meteor/dev-error-overlay": [
+        "/home/takasaki/.meteor/packages/dev-error-overlay/0.1.1/web.browser/client.js"
+      ],
+      "meteor/accounts-password": [
+        "/home/takasaki/.meteor/packages/accounts-password/2.3.1/web.browser/password_client.js",
+        "/home/takasaki/.meteor/packages/accounts-password/2.3.1/web.browser/email_templates.js",
+        "/home/takasaki/.meteor/packages/accounts-password/2.3.1/web.browser/password_server.js"
+      ],
+      "meteor/meteortesting:mocha": [
+        "/home/takasaki/.meteor/packages/meteortesting_mocha/2.0.3/web.browser/client.js",
+        "/home/takasaki/.meteor/packages/meteortesting_mocha/2.0.3/web.browser/browser-shim.js",
+        "/home/takasaki/.meteor/packages/meteortesting_mocha/2.0.3/web.browser/prepForHTMLReporter.js",
+        "/home/takasaki/.meteor/packages/meteortesting_mocha/2.0.3/web.browser/runtimeArgs.js",
+        "/home/takasaki/.meteor/packages/meteortesting_mocha/2.0.3/web.browser/server.handleCoverage.js",
+        "/home/takasaki/.meteor/packages/meteortesting_mocha/2.0.3/web.browser/server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
